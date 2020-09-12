@@ -39,6 +39,13 @@ header{
     text-decoration: none;
     color: #555;
     padding: 10px 10px;
+    transition: background .8s;
+}
+.menu li a:hover{
+    background: #eeeeee;
+}
+.menu li a:active{
+    background: #eeeeee;
 }
 .container{
     margin-top: 220px;
@@ -98,6 +105,8 @@ cite{
 
 
 }
+
+
 footer{
     background: #e0e0e0;
     text-align: center;
